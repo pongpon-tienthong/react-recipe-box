@@ -1,13 +1,13 @@
 import React, { Component } from "react";
+import Aux from "./hoc/Aux/Aux";
 import RecipeBox from "./containers/RecipeBox/RecipeBox";
-import styles from "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className={styles.App}>
+      <Aux>
         <RecipeBox />
-      </div>
+      </Aux>
     );
   }
 }
