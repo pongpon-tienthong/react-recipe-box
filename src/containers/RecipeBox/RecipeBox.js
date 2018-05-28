@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import './RecipeBox.css';
+import styles from "./RecipeBox.css";
 
 class RecipeBox extends Component {
   render() {
     return (
-      <div className="RecipeBox">
+      <div className={styles.RecipeBox}>
         <div>
           <h3>Menu</h3>
           <ul>
@@ -12,7 +12,7 @@ class RecipeBox extends Component {
             <li>Menu Item</li>
             <li>Menu Item</li>
           </ul>
-          </div>
+        </div>
         <div>Add Recipe Button</div>
       </div>
     );
