@@ -2,3 +2,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.RecipeBox .Menu {
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  padding: 20px;
+}

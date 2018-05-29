@@ -1,26 +1,14 @@
 import React from "react";
 import MenuItem from "./MenuItem/MenuItem";
-import { Container, Row, Col } from "reactstrap";
+import Aux from "./../../hoc/Aux/Aux";
 import "./Menu.css";
 
 const menu = props => (
-  <Container className="card card-body bg-light">
-    <Row>
-      <Col>
-        <MenuItem />
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <MenuItem />
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <MenuItem />
-      </Col>
-    </Row>
-  </Container>
+  <Aux>
+    <MenuItem />
+    <MenuItem />
+    <MenuItem />
+  </Aux>
 );
 
 export default menu;
